@@ -1,0 +1,138 @@
+/* Global ------------------------------ */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    height: 100%;
+    width: 100%;
+    
+    background-color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+
+    text-align: center;
+}
+
+/* Body ------------------------------ */
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+
+    min-width: 400px;
+
+    border-radius: 5px;
+
+    background-color: #eee;
+}
+
+#title {
+    /* display: flex;
+    justify-content: center; */
+
+    margin-top: 2rem;
+
+    width: 100%;
+
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#title-p {
+    margin: 2rem 0;
+    font-weight: 100;
+}
+
+#img-div {
+    /*  figure tag  */
+    padding: 15px;
+
+    background-color: white;
+
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    margin-top: 1.5rem;
+
+    font-size: 1.3rem;
+
+    text-align: center;
+}
+
+#tribute-info {
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+#tribute-info h2 {
+    margin: 3rem 0;
+
+    text-align: center;
+}
+
+ul {
+    margin: 0 auto 5rem;
+
+    max-width: 700px;
+    line-height: 2rem;
+
+    text-align: left;
+}
+
+li {
+    margin: 25px 0;
+
+    font-weight: 300;
+}
+
+blockquote {
+    max-width: 650px;
+    margin: 0 auto;
+
+    text-align: left;
+}
+
+blockquote p {
+    margin: 1rem 0;
+}
+
+/* Footer h2 ------------------------------ */
+#footer-h2 {
+    padding: 15px;
+}
+
+#footer-h2 a {
+    color: royalblue;
+    opacity: 0.5;
+}
+
+#footer-h2 a:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 650px) {
+    #main {
+        margin: 0;
+    }
+
+    #title {
+        text-align: center;
+
+        margin-top: 2rem;
+    
+        font-size: 3rem;
+    }
+}
